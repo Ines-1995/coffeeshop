@@ -1,0 +1,86 @@
+<html lang="pt" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  </head>
+  <body>
+        <header>
+    <h1>Welcome to Aveiro's Coffee House!</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="omeusite.html#aboutus">About us</a></li>
+      <li><a href="omeusite.html#events">Events</a></li>
+      <li><a href="omeusite.html#drinks">Beverages</a></li>
+      <li><a href="omeusite.html#contacts">Contacts</a></li>
+      <li><a href="Order.html"> Order a Coffee</a></li>
+    </ul>
+  </nav>
+
+
+  <form method="post" action="http://www3.ca.ua.pt/FormList.php">
+    <label>Customer's name</label>
+    <input type="text" name="customer_name">
+    <br>
+    <br>
+    <label>Date </label>
+    <input type="date" name="date_order">
+    <br>
+    <br>
+    <label>Time </label>
+    <input type="time" name="time_order">
+    <br>
+    <br>
+    <label>Coffee type</label>
+    <select name="coffee_type" >
+      <option value="americano">Americano</option>
+      <option value="cappuccino">Cappuccino</option>
+      <option value="espresso">Espresso</option>
+      <option value="latte">Latte</option>
+      <option value="mocha">Mocha</option>
+    </select> 
+    <br>
+    <br>
+    <h2>Payment method</h2>
+    <div>
+      <input type="radio" id="paypal" name="payment" value="paypal" disabled="">
+      <label for="paypal">Paypal</label>
+    </div>
+
+    <div>
+      <input type="radio" id="mbway" name="payment" value="mbway">
+      <label for="mbway">MBway</label>
+    </div>
+
+    <div>
+      <input type="radio" id="credit_card" name="payment" value="credit_card" checked>
+      <label for="credit_card">Credit Card</label>
+    </div>
+    <br>
+    <br>
+
+    <h2>Payment details</h2>
+    <label>Card name</label>
+    <input type="text" name="credit_name" minlength="3">
+    <br>
+    <br>
+    <label>Card number</label>
+    <input type="number" name="credit_number" maxlength="4">
+    <br>
+    <br>
+    <label>CCV</label>
+    <input type="password" name="credit_ccv" maxlength="4">
+    <br>
+    <br>
+    <br>
+    <br> 
+    <button type="summit"> Order now</button>
+    <button type="reset"> Clear all the inputs</button>
+  </form>
+
+  <br>
+  <br>
+</body>
+</html>
+
+

@@ -1,0 +1,254 @@
+html {
+    
+}
+
+@font-face {
+  font-family: LatoItalic;
+  src: url(lato/Lato-Italic.ttf);
+}
+
+body {
+    background: #fff;
+    color: #545454;
+    font-family: LatoItalic;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0em;
+    list-style-type: none;
+    text-justify: auto;
+    justify-content: flex-start;
+}
+
+header { 
+    background-image: url(imagens/bg_cafe.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    padding: 320px;
+    list-style-type: none;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+        
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul li{
+    margin-right: 10px;
+    list-style: none;
+}
+
+
+header nav ul li a{
+    color: #462E01;
+    font-weight: bold;
+    text-decoration: : none;
+    list-style-type: none;
+    
+}
+
+
+h1 {
+    font-family: LatoItalic;
+    color: white;
+    font-size: 3rem;
+    border: 60px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+header, h1 {
+    color: #462E01;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type:none;
+}
+
+
+h2 {
+    color: #8B572A;
+    font-family: LatoItalic;
+    font-size: 1.5rem;
+    border: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+h3 {
+    
+    color: #8B572A;
+    font-family: LatoItalic;
+    font-size: 1.5rem;
+    border: 50px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+h3, a {
+    color: #8B572A;
+}
+
+
+a, strong {
+    color: #462E01;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    text-decoration-line: none;
+
+}
+
+b, strong {
+    font-weight: 600;
+    list-style-type: none;
+    
+}
+
+h4 {
+    display: inline;
+    margin-right: 20px;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+h4, a {
+    font-weight: bold;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    display: inline;
+    margin:inherit;
+    max-width: 50%;
+}
+
+
+
+#macchiato {
+    padding: 20px;
+    
+}
+
+#macchiato_content {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between; 
+}
+
+#macchiato p {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+#macchiato img {
+    max-width: 200px; 
+    height: auto; 
+    flex-shrink: 0; 
+}
+
+
+#aboutus_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+#aboutus_content p {
+    flex: 1;
+    margin: 20px;
+    text-align: left;
+}
+
+#aboutus_content img {
+    max-width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.nav-list {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    font-size: bold;
+}
+
+.nav-list li {
+    margin: 0 10px; 
+}
+
+.nav-list li:first-child {
+    margin-left: 0; 
+}
+
+.nav-list li:last-child {
+    margin-right: 0; 
+}
+
+.nav-list li a {
+    text-decoration: none; 
+    color: #462E01; 
+    font-weight: bold; 
+    padding: 10px; 
+    transition: color 0.3s ease; 
+}
+
+.nav-list li a:hover {
+    color: #835C3B; 
+}
+
+
+#machiatto_section {
+    background-color: #F0EAE2; /* Cor de fundo, opcional */
+    padding: 20px;
+}
+
+#machiatto_video {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+iframe {
+    margin: 20px;
+    
+}
